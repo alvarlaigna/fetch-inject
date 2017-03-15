@@ -8,7 +8,7 @@ const config = {
   moduleName: 'fetchInject',
   plugins: [
     license({
-      banner: `Copyright (c) <%= moment().format('YYYY') %> Josh Habdas\n@licence MIT`
+      banner: `Copyright (c) <%= moment().format('YYYY') %> Josh Habdas\nBuild: <%= moment().format() %>\n@licence MIT`
     })
   ]
 }
